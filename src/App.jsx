@@ -4,6 +4,17 @@ import Cards from './components/Card.jsx'
 import SpongeBob from './assets/spongebob.png'
 import Patrick from './assets/patrick.png'
 import Squiward from './assets/squidward.png'
+import Krabs from './assets/mr_krabs.png'
+import Plankton from './assets/plankton.jpeg'
+import Sandy from './assets/sandy.png'
+import Gary from './assets/gary.jpeg'
+import King from './assets/King_neptune.jpeg'
+import Pearl from './assets/pearl.png'
+import Puff from './assets/mrs_puff.png'
+import Larry from './assets/larry.png'
+import Karen from './assets/karen.jpeg'
+import Mermaid from './assets/mermaid.jpeg'
+import Boy from './assets/barnacle_boy.png'
 
 
 const App = () => {
@@ -12,17 +23,17 @@ const App = () => {
     {name: "SpongeBob SquarePants", image: SpongeBob , question_image:""},
     {name: "Patrick Star", image: Patrick, question_image:"" },
     {name: "Squidward", image:Squiward, question_image:""},
-    {name: "Mr.Krabs", image:Squiward, question_image:""},
-    {name: "Plankton", image:Squiward, question_image:""},
-    {name: "Sandy Cheeks", image:Squiward, question_image:""},
-    {name: "Gary", image:Squiward, question_image:""},
-    {name: "King Neptune", image:Squiward, question_image:""},
-    {name: "Pearl Krabs", image:Squiward, question_image:""},
-    {name: "Mrs. Puff", image:Squiward, question_image:""},
-    {name: "Larry the Lobster", image:Squiward, question_image:""},
-    {name: "Karen", image:Squiward, question_image:""},
-    {name: "Mermaid Man", image:Squiward, question_image:""},
-    {name: "Barnacle Boy", image:Squiward, question_image:""}
+    {name: "Mr.Krabs", image:Krabs, question_image:""},
+    {name: "Plankton", image:Plankton, question_image:""},
+    {name: "Sandy Cheeks", image:Sandy, question_image:""},
+    {name: "Gary", image:Gary, question_image:""},
+    {name: "King Neptune", image:King, question_image:""},
+    {name: "Pearl Krabs", image:Pearl, question_image:""},
+    {name: "Mrs. Puff", image:Puff, question_image:""},
+    {name: "Larry the Lobster", image:Larry, question_image:""},
+    {name: "Karen", image:Karen, question_image:""},
+    {name: "Mermaid Man", image:Mermaid, question_image:""},
+    {name: "Barnacle Boy", image:Boy, question_image:""}
   ]
 
   return (
