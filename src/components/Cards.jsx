@@ -2,10 +2,14 @@ import { useState } from 'react'
 
 
 
-function Cards () {
+const Cards = () => {
 
 
-    return()
+    return(
+        <div className="Card">
+            
+        </div>
+    )
 }
 
 export default Cards
