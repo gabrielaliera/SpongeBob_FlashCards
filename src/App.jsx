@@ -9,9 +9,9 @@ import Squiward from './assets/squidward.png'
 const App = () => {
 
   const cardPairs = [
-    {name: "SpongeBob SquarePants", image: SpongeBob },
-    {name: "Patrick Star", image: Patrick },
-    {name: "Squidward", image:Squiward }
+    {name: "SpongeBob SquarePants", image: SpongeBob , question_image:""},
+    {name: "Patrick Star", image: Patrick, question_image:"" },
+    {name: "Squidward", image:Squiward, question_image:""}
   ]
 
   return (
