@@ -19,16 +19,15 @@ const Card = ({cards}) => {
     return(
         <div>
             <h3>Number of cards:{cards.length}</h3>
-           <div   className={`card ${flip ? "flip" : ""}`} onClick={ () => setCardSide(!cardSide)}>
-                 
-               
+           <div   className={`card ${flip ? "flip" : ""}`} onClick={ () => setFlip(!flip)}>
+                                
                 <div className="front">
-                    <p>{currentCard.name}</p>
-                
-                </div>
-                <div className="back">
                     <img className="image" src={currentCard.image} alt={`Small image for card ${currentCard.id}`}/>
                 </div>
+                <div className="back">
+                    <p>{currentCard.name}</p>
+                </div>
+                
             </div>
            <button onClick={nextCard}>Next</button>
         </div>
