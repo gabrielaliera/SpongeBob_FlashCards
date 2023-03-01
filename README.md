@@ -1,14 +1,12 @@
 # SpongeBob FlashCards
 
-## Overview
-
 Flashcards pt. 1 is a Quizlet-inspired set of flashcards, built using React, Vite, HTML, JavaScript, and CSS.
 
 This is an example of Flashcards Part 1 called The Ultimate Plant Parent. This project includes flashcards made for quizzing on cool and important plant facts to be the best plant parents to our green friends :)
 
 Time spent: **X** hours spent in total
 
-### Usage
+## Usage
 
 In this project, users can use information presented in a flashcard-like manner to study, learn something new, or play a guessing game. Users will be able to study cards in a randomized order.
 
@@ -79,23 +77,6 @@ Visit the web application in the browser
 ```console
 http://localhost:5173/
 ```
-
-### Deploy Flashcards Pt. 1
-
-To deploy this application on Netlify, run the following in the repo directory:
-
-```sh
-npm install
-npm run build
-```
-
-Upload the generated `dist` file to Netlify at:
-
-```html
-https://app.netlify.com/drop
-```
-
-<br/>
 
 ## Notes
 
