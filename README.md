@@ -1,11 +1,16 @@
-# SpongeBob_FlashCards
-# Web Development Project 2 - *Name of App Here*
+# SpongeBob FlashCards
 
-Submitted by: **Your Name Here**
+## Overview
 
-This web app: **insert description**
+Flashcards pt. 1 is a Quizlet-inspired set of flashcards, built using React, Vite, HTML, JavaScript, and CSS.
+
+This is an example of Flashcards Part 1 called The Ultimate Plant Parent. This project includes flashcards made for quizzing on cool and important plant facts to be the best plant parents to our green friends :)
 
 Time spent: **X** hours spent in total
+
+### Usage
+
+In this project, users can use information presented in a flashcard-like manner to study, learn something new, or play a guessing game. Users will be able to study cards in a randomized order.
 
 ## Required Features
 
@@ -40,6 +45,58 @@ GIF created with ...
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
+### Dependencies
+
+* [Vite](https://www.npmjs.com/package/vite)
+* [Vite React Plugin](https://www.npmjs.com/package/@vitejs/plugin-react)
+* [React](https://www.npmjs.com/package/react)
+* [React-DOM](https://www.npmjs.com/package/react-dom)
+
+---
+
+### Install Dependencies
+
+Note: In the 'required features only' version of this lab, the individual flashcards have no color, however the current state of this repo includes the stretch features, where the individual flashcards have been color coordinated based on difficulty.
+
+Before installing dependiencies, you will need `node` and `npm` installed globally on your machine by installing [NodeJS](https://nodejs.org/en/download/) onto your machine.
+
+To install the dependencies, run:
+
+```sh
+npm install
+```
+
+### Run Flashcards pt. 1
+
+In the repo directory, run the following in your terminal:
+
+```sh
+npm run dev
+```
+
+Visit the web application in the browser
+
+```console
+http://localhost:5173/
+```
+
+### Deploy Flashcards Pt. 1
+
+To deploy this application on Netlify, run the following in the repo directory:
+
+```sh
+npm install
+npm run build
+```
+
+Upload the generated `dist` file to Netlify at:
+
+```html
+https://app.netlify.com/drop
+```
+
+<br/>
+
 ## Notes
 
 Describe any challenges encountered while building the app.
@@ -59,3 +116,6 @@ Describe any challenges encountered while building the app.
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+---
+
+*Last Updated: March 2023*
