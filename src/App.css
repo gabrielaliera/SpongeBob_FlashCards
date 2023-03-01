@@ -10,7 +10,13 @@ h1 {
   line-height: 1.1;
 }
 
-
+body{
+  background-color: antiquewhite;
+  color: black;
+  background-image: url("./assets/spongebob-background.jpg");
+  background-size: 100% 100%;
+  
+}
 
 button {
   border-radius: 8px;
