@@ -16,10 +16,11 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>SpongeBob Trivia</h1>
-      <h2>Can you correctly name the following characters?</h2>
-      <h2>Number of cards: {cardPairs.length}</h2>
-      <Cards name= {cardPairs[0].name} img={cardPairs[0].image}/>
+      <div className="header">
+        <h1>SpongeBob Trivia</h1>
+        <h2>Can you correctly name the following characters?</h2>
+      </div>
+      <Cards cards={cardPairs}/>
     </div>
   )
 }
