@@ -20,20 +20,20 @@ import Boy from './assets/barnacle_boy.png'
 const App = () => {
 
   const cardPairs = [
-    {name: "SpongeBob SquarePants", image: SpongeBob , question_image:""},
-    {name: "Patrick Star", image: Patrick, question_image:"" },
-    {name: "Squidward", image:Squiward, question_image:""},
-    {name: "Mr.Krabs", image:Krabs, question_image:""},
-    {name: "Plankton", image:Plankton, question_image:""},
-    {name: "Sandy Cheeks", image:Sandy, question_image:""},
-    {name: "Gary", image:Gary, question_image:""},
-    {name: "King Neptune", image:King, question_image:""},
-    {name: "Pearl Krabs", image:Pearl, question_image:""},
-    {name: "Mrs. Puff", image:Puff, question_image:""},
-    {name: "Larry the Lobster", image:Larry, question_image:""},
-    {name: "Karen", image:Karen, question_image:""},
-    {name: "Mermaid Man", image:Mermaid, question_image:""},
-    {name: "Barnacle Boy", image:Boy, question_image:""}
+    {name: "SpongeBob SquarePants", image: SpongeBob , question_image:"", diffculty:"easy"},
+    {name: "Patrick Star", image: Patrick, question_image:"", diffculty:"easy" },
+    {name: "Squidward", image:Squiward, question_image:"", diffculty:"easy"},
+    {name: "Mr.Krabs", image:Krabs, question_image:"", diffculty:"easy"},
+    {name: "Plankton", image:Plankton, question_image:"", diffculty:"medium"},
+    {name: "Sandy Cheeks", image:Sandy, question_image:"",diffculty:"medium"},
+    {name: "Gary", image:Gary, question_image:"", diffculty:"medium"},
+    {name: "King Neptune", image:King, question_image:"", diffculty:"hard"},
+    {name: "Pearl Krabs", image:Pearl, question_image:"",  diffculty:"hard"},
+    {name: "Mrs. Puff", image:Puff, question_image:"",  diffculty:"hard"},
+    {name: "Larry the Lobster", image:Larry, question_image:"",  diffculty:"hard"},
+    {name: "Karen", image:Karen, question_image:"",  diffculty:"hard"},
+    {name: "Mermaid Man", image:Mermaid, question_image:"",  diffculty:"hard"},
+    {name: "Barnacle Boy", image:Boy, question_image:"", diffculty:"hard"}
   ]
 
   return (

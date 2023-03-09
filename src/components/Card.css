@@ -38,4 +38,17 @@
     height: 200px;
     align-items: center;
   }
+
+.easy {
+    background-color: green;
+    opacity: 0.5;
+}
+
+.medium {
+    background-color: yellow;
+}
+
+.hard{
+    background-color: red;
+}
   
