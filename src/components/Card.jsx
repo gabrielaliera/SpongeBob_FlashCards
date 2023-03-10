@@ -4,6 +4,7 @@ import './Card.css';
 
 import Button from './Button';
 import CardDisplay from './CardDisplay';
+import AnswerSpace from './AnswerSpace';
 
 const Card = ({cards}) => {
 
@@ -14,6 +15,9 @@ const Card = ({cards}) => {
     const [currentIndex, setCurrentIndex] = useState(0); 
     const [atStartIndex, setAtStartIndex] = useState(true);
     const [atEndIndex, setAtEndIndex] = useState(false);
+    
+    const [guess, setGuess] = useState("")
+
     
     
     const nextCardRandom = () =>{
@@ -55,12 +59,19 @@ const Card = ({cards}) => {
 
     }
     
+    const onSubmit = () =>{
+        
+    }
 
     return(
         <div>
-            <h3>Number of cards: {cards.length}</h3>
-            <CardDisplay flip={flip} currentCard={currentCard} setFlip={setFlip}/> 
-         
+           <h3>Number of cards: {cards.length}</h3>
+           <CardDisplay flip={flip} currentCard={currentCard} setFlip={setFlip}/> 
+           <AnswerSpace 
+            currentValue={guess} 
+            handleChange = {(e) => setGuess(e.target.value)}
+            submit={onSubmit} />
+           
            <Button
                 disableBegin= {atStartIndex}
                 disableEnd = {atEndIndex}

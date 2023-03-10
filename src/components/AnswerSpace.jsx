@@ -1,21 +1,22 @@
 import React, {Component, useState} from 'react';
 
 
-const AnswerSpace = (label, userInput, handleChange) => {
+const AnswerSpace = ({currentValue, handleChange, submit}) => {
 
     return(
         <div>
             <label>
                 <input
                     type="text"
-                    name={label}
-                    value={userInput}
-                    placeholder="Guess"
+                    name="answer"
+                    value={currentValue}
+                    placeholder="Guess the answer..."
                     onChange={handleChange}
                     className='textbox'
                 />
                 
             </label>
+            <button type="submit" onClick={submit}>Submit</button>
         </div>
     )
 }
