@@ -41,7 +41,12 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
+Part 1:
 <img src='https://github.com/gabrielaliera/SpongeBob_FlashCards/blob/master/spongebob-walkthroughP1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Part 2:
+<img src='https://github.com/gabrielaliera/SpongeBob_FlashCards/blob/master/spongebob-walkthroughP2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough with updates' />
+
 
 GIF created with <a href="https://www.cockos.com/licecap/">LICEcap.</a> 
 
