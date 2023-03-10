@@ -42,15 +42,15 @@
 #easy {
    /* background-color: green;
     opacity: 0.7;*/
-    background-color: rgba(167, 234, 174, 0.75);
+    background-color: rgba(113, 220, 70, 0.75);
 }
 
 #medium {
-    background-color:rgba(232, 223, 141, 0.75);
+    background-color:rgba(245, 220, 33, 0.75);
 }
 
 #hard{
-    background-color:rgba(222, 96, 98, 0.75);;
+    background-color:rgba(196, 42, 45, 0.75);;
 }
  
 p {
