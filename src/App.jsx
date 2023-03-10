@@ -20,7 +20,7 @@ import House from './assets/house.jpeg'
 const App = () => {
 
   const cardPairs = [
-    {name:"Flip card to see answer", image:"", question_image:House,difficulty:""},
+    {name:"What is SpongeBob's house?\nFlip card to see answer", image:"", question_image:House, difficulty:""},
     {name: "SpongeBob SquarePants", image: SpongeBob , question_image:"", difficulty:"easy"},
     {name: "Patrick Star", image: Patrick, question_image:"", difficulty:"easy" },
     {name: "Squidward", image:Squiward, question_image:"", difficulty:"easy"},

@@ -59,7 +59,7 @@ const Card = ({cards}) => {
     return(
         <div>
             <h3>Number of cards: {cards.length}</h3>
-            <CardDisplay/> 
+            <CardDisplay flip={flip} currentCard={currentCard} setFlip={setFlip}/> 
          
            <Button
                 disableBegin= {atStartIndex}

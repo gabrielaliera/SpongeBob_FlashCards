@@ -55,4 +55,5 @@
  
 p {
  font-size: 25px;
+ white-space: pre-wrap;
 }
