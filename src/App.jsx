@@ -15,11 +15,12 @@ import Larry from './assets/larry.png'
 import Karen from './assets/karen.jpeg'
 import Mermaid from './assets/mermaid.jpeg'
 import Boy from './assets/barnacle_boy.png'
-
+import House from './assets/house.jpeg'
 
 const App = () => {
 
   const cardPairs = [
+    {name:"Flip card to see answer", image:"", question_image:House,difficulty:""},
     {name: "SpongeBob SquarePants", image: SpongeBob , question_image:"", difficulty:"easy"},
     {name: "Patrick Star", image: Patrick, question_image:"", difficulty:"easy" },
     {name: "Squidward", image:Squiward, question_image:"", difficulty:"easy"},

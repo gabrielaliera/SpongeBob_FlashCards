@@ -1,12 +1,13 @@
 import { Component , useState } from 'react';
 import React from 'react';
 import './Card.css';
-import House from '../assets/house.jpeg';
+
 import Button from './Button';
+import CardDisplay from './CardDisplay';
 
 const Card = ({cards}) => {
 
-    const [currentCard, setCurrentCard] = useState({id:0, name:"Flip card to see answer", image:"", question_image:House});
+    const [currentCard, setCurrentCard] = useState(cards[0]);
 
     const [flip, setFlip] = useState(false);
 
@@ -58,19 +59,7 @@ const Card = ({cards}) => {
     return(
         <div>
             <h3>Number of cards: {cards.length}</h3>
-           <div className={`card ${flip ? "flip" : ""}`} id={currentCard.difficulty} onClick={ () => setFlip(!flip)}>
-                                
-                <div className="front">
-                    {currentCard.question_image ?  
-                       (<p>{currentCard.name}<br></br><img className="image" src={currentCard.question_image} alt={`Small image for card ${currentCard.id}`}/></p>) :
-                       (<img className="image" src={currentCard.image} alt={`Small image for card ${currentCard.id}`}/>)}
-                    
-                </div>
-                <div className="back">
-                    <p>{currentCard.name}</p>
-                </div>
-                
-            </div>
+            <CardDisplay/> 
          
            <Button
                 disableBegin= {atStartIndex}
