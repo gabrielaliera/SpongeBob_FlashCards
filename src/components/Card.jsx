@@ -59,16 +59,36 @@ const Card = ({cards}) => {
     }
 
     const shuffleCard = () =>{
+        let startCard = cards[0];
+        cards.splice(0,1);
 
+        for (let i = cards.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            const temp = cards[i];
+            cards[i] = cards[j];
+            cards[j] = temp;
+        }
+        cards.unshift(startCard);
+        setCurrentCard(startCard)
     }
     
     const onSubmit = () =>{
-
+        
+        if(currentCard.name.toLowerCase().includes(guess.toLowerCase())){
+            setScore(score + 1)
+            alert("Correct!");
+        } else {
+            setLongestStreak((longestStreak < score) ? score : longestStreak)
+            setScore(0)
+            alert("Wrong! Guess Again!")
+        }
+        setGuess("")
+       
     }
 
     return(
         <div>
-           <h3>Number of cards: {cards.length}</h3>
+           <h3>Number of Cards: {cards.length}</h3>
            <Score score= {score} streak = {longestStreak}/>
            <CardDisplay flip={flip} currentCard={currentCard} setFlip={setFlip}/> 
            <AnswerSpace 
