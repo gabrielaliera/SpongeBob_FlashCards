@@ -30,8 +30,10 @@ const Card = ({cards}) => {
     };
 
     const prevCard = () =>{
+        setFlip(false);
+        setGuess("");
         let index = currentIndex - 1;
-        //Card will loop around to end of array ( 0 -> 12)
+        
         if(index < 0){
             setAtStartIndex(true)
         } else {
@@ -41,25 +43,26 @@ const Card = ({cards}) => {
             setAtStartIndex(false);
             setFlip(false);  
         }
-        setFlip(false);
-        setGuess("");
+        
     };
 
     const nextCard = () => {
+        setFlip(false);
+        setGuess("");  
         let index = currentIndex + 1;
         
-        //Card will loop around to beginning of array ( 12 -> 0)
+       
         if(index >= cards.length){
             setAtEndIndex(true)
         } else {
+           
             setCurrentIndex(index);
             setCurrentCard(cards[index]);
             setAtEndIndex(false);
             setAtStartIndex(false);
-            setFlip(false);  
+            
         }
-        setFlip(false);
-        setGuess("");
+        
     }
 
     const shuffleCard = () =>{
