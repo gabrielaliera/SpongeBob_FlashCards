@@ -41,6 +41,8 @@ const Card = ({cards}) => {
             setAtStartIndex(false);
             setFlip(false);  
         }
+        setFlip(false);
+        setGuess("");
     };
 
     const nextCard = () => {
@@ -56,6 +58,8 @@ const Card = ({cards}) => {
             setAtStartIndex(false);
             setFlip(false);  
         }
+        setFlip(false);
+        setGuess("");
     }
 
     const shuffleCard = () =>{
