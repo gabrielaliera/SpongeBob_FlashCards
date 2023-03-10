@@ -39,16 +39,20 @@
     align-items: center;
   }
 
-.easy {
-    background-color: green;
-    opacity: 0.5;
+#easy {
+   /* background-color: green;
+    opacity: 0.7;*/
+    background-color: rgba(167, 234, 174, 0.75);
 }
 
-.medium {
-    background-color: yellow;
+#medium {
+    background-color:rgba(232, 223, 141, 0.75);
 }
 
-.hard{
-    background-color: red;
+#hard{
+    background-color:rgba(222, 96, 98, 0.75);;
 }
-  
+ 
+p {
+ font-size: 25px;
+}

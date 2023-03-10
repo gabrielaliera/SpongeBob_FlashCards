@@ -20,20 +20,20 @@ import Boy from './assets/barnacle_boy.png'
 const App = () => {
 
   const cardPairs = [
-    {name: "SpongeBob SquarePants", image: SpongeBob , question_image:"", diffculty:"easy"},
-    {name: "Patrick Star", image: Patrick, question_image:"", diffculty:"easy" },
-    {name: "Squidward", image:Squiward, question_image:"", diffculty:"easy"},
-    {name: "Mr.Krabs", image:Krabs, question_image:"", diffculty:"easy"},
-    {name: "Plankton", image:Plankton, question_image:"", diffculty:"medium"},
-    {name: "Sandy Cheeks", image:Sandy, question_image:"",diffculty:"medium"},
-    {name: "Gary", image:Gary, question_image:"", diffculty:"medium"},
-    {name: "King Neptune", image:King, question_image:"", diffculty:"hard"},
-    {name: "Pearl Krabs", image:Pearl, question_image:"",  diffculty:"hard"},
-    {name: "Mrs. Puff", image:Puff, question_image:"",  diffculty:"hard"},
-    {name: "Larry the Lobster", image:Larry, question_image:"",  diffculty:"hard"},
-    {name: "Karen", image:Karen, question_image:"",  diffculty:"hard"},
-    {name: "Mermaid Man", image:Mermaid, question_image:"",  diffculty:"hard"},
-    {name: "Barnacle Boy", image:Boy, question_image:"", diffculty:"hard"}
+    {name: "SpongeBob SquarePants", image: SpongeBob , question_image:"", difficulty:"easy"},
+    {name: "Patrick Star", image: Patrick, question_image:"", difficulty:"easy" },
+    {name: "Squidward", image:Squiward, question_image:"", difficulty:"easy"},
+    {name: "Mr.Krabs", image:Krabs, question_image:"", difficulty:"easy"},
+    {name: "Plankton", image:Plankton, question_image:"", difficulty:"medium"},
+    {name: "Sandy Cheeks", image:Sandy, question_image:"",difficulty:"medium"},
+    {name: "Gary", image:Gary, question_image:"", difficulty:"medium"},
+    {name: "King Neptune", image:King, question_image:"", difficulty:"hard"},
+    {name: "Pearl Krabs", image:Pearl, question_image:"",  difficulty:"hard"},
+    {name: "Mrs. Puff", image:Puff, question_image:"",  difficulty:"hard"},
+    {name: "Larry the Lobster", image:Larry, question_image:"",  difficulty:"hard"},
+    {name: "Karen", image:Karen, question_image:"",  difficulty:"hard"},
+    {name: "Mermaid Man", image:Mermaid, question_image:"",  difficulty:"hard"},
+    {name: "Barnacle Boy", image:Boy, question_image:"", difficulty:"hard"}
   ]
 
   return (

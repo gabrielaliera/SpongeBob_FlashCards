@@ -19,7 +19,7 @@ const Card = ({cards}) => {
     return(
         <div>
             <h3>Number of cards: {cards.length}</h3>
-           <div   className={`card ${flip ? "flip" : ""}`} onClick={ () => setFlip(!flip)}>
+           <div className={`card ${flip ? "flip" : ""}`} id={currentCard.difficulty} onClick={ () => setFlip(!flip)}>
                                 
                 <div className="front">
                     {currentCard.question_image ?  
