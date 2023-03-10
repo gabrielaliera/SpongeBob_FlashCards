@@ -1,9 +1,10 @@
 import { Component, useState } from "react";
+import './Score.css'
 
-const Score = ({streak, longestStreak}) => {
+const Score = ({score, streak}) => {
     return(
         <div>
-            <h3>Current Streak: {streak} Longest Streak: {longestStreak}</h3>
+            <h3 className="streak">Current Streak: {score} Longest Streak: {streak}</h3>
         </div>
     )
 }
