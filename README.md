@@ -4,7 +4,7 @@ Flashcards pt. 1 is a Quizlet-inspired set of flashcards, built using React, Vit
 
 This is an example of Flashcards Part 1 called SpongeBob FlashCards. This project includes flashcards made for quizzing on Spongebob characters :)
 
-Time spent: **4** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Usage
 
@@ -19,12 +19,18 @@ The following **required** functionality is completed:
 - [x] **A list of card pairs is created**
 - [x] **Clicking on the card shows the corresponding component of the information pair**
 - [x] **Clicking the next button displays a random new card**
+- [x] **The user can enter their guess in a box before seeing the flipside of the card**
+- [x] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [x] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [x] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
 The following **optional** features are implemented:
 
 - [x] Cards contains images in addition to or in place of text
 - [x] Cards have different visual styles such as color based on their category
-- [x] *visual style implemented*
+- [x] A shuffle button is used to randomize the order of the cards
+- [x] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [x] A counter displays the user's current and longest streak of correct responses
 
 The following **additional** features are implemented:
 
