@@ -1,7 +1,8 @@
-import { useState } from 'react'
-import React from 'react'
-import './Card.css'
-import House from '../assets/house.jpeg'
+import { Component , useState } from 'react';
+import React from 'react';
+import './Card.css';
+import House from '../assets/house.jpeg';
+import Button from './Button';
 
 const Card = ({cards}) => {
 
@@ -9,11 +10,49 @@ const Card = ({cards}) => {
 
     const [flip, setFlip] = useState(false);
 
-    const nextCard = () =>{
+    const [currentIndex, setCurrentIndex] = useState(0); 
+    const [atStartIndex, setAtStartIndex] = useState(true);
+    const [atEndIndex, setAtEndIndex] = useState(false);
+    
+    
+    const nextCardRandom = () =>{
         let randomNextCard = Math.floor(Math.random() * cards.length)
         setCurrentCard(cards[randomNextCard])
         setFlip(false)
     };
+
+    const prevCard = () =>{
+        let index = currentIndex - 1;
+        //Card will loop around to end of array ( 0 -> 12)
+        if(index < 0){
+            setAtStartIndex(true)
+        } else {
+            setCurrentIndex(index);
+            setCurrentCard(cards[index]);
+            setAtEndIndex(false);
+            setAtStartIndex(false);
+            setFlip(false);  
+        }
+    };
+
+    const nextCard = () => {
+        let index = currentIndex + 1;
+        
+        //Card will loop around to beginning of array ( 12 -> 0)
+        if(index >= cards.length){
+            setAtEndIndex(true)
+        } else {
+            setCurrentIndex(index);
+            setCurrentCard(cards[index]);
+            setAtEndIndex(false);
+            setAtStartIndex(false);
+            setFlip(false);  
+        }
+    }
+
+    const shuffleCard = () =>{
+
+    }
     
 
     return(
@@ -32,7 +71,15 @@ const Card = ({cards}) => {
                 </div>
                 
             </div>
-           <button onClick={nextCard}>Next</button>
+         
+           <Button
+                disableBegin= {atStartIndex}
+                disableEnd = {atEndIndex}
+                next = {nextCard}
+                prev ={prevCard}
+                shuffle ={shuffleCard}
+           />
+           
         </div>
     )
 }
