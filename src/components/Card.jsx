@@ -5,6 +5,7 @@ import './Card.css';
 import Button from './Button';
 import CardDisplay from './CardDisplay';
 import AnswerSpace from './AnswerSpace';
+import Score from './Score';
 
 const Card = ({cards}) => {
 
@@ -17,6 +18,8 @@ const Card = ({cards}) => {
     const [atEndIndex, setAtEndIndex] = useState(false);
     
     const [guess, setGuess] = useState("")
+    const [currentStreak, setCurrentStreak] = useState(0)
+    const [longestStreak, setLongestStreak] = useState(0)
 
     
     
@@ -60,12 +63,13 @@ const Card = ({cards}) => {
     }
     
     const onSubmit = () =>{
-        
+
     }
 
     return(
         <div>
            <h3>Number of cards: {cards.length}</h3>
+           <Score streak= {0} longestSteak = {0}/>
            <CardDisplay flip={flip} currentCard={currentCard} setFlip={setFlip}/> 
            <AnswerSpace 
             currentValue={guess} 

@@ -1,7 +1,11 @@
 import { Component, useState } from "react";
 
-const Score = () => {
-    return()
+const Score = ({streak, longestStreak}) => {
+    return(
+        <div>
+            <h3>Current Streak: {streak} Longest Streak: {longestStreak}</h3>
+        </div>
+    )
 }
 
 
