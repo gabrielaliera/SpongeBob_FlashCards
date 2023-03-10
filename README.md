@@ -2,9 +2,9 @@
 
 Flashcards pt. 1 is a Quizlet-inspired set of flashcards, built using React, Vite, HTML, JavaScript, and CSS.
 
-This is an example of Flashcards Part 1 called The Ultimate Plant Parent. This project includes flashcards made for quizzing on cool and important plant facts to be the best plant parents to our green friends :)
+This is an example of Flashcards Part 1 called SpongeBob FlashCards. This project includes flashcards made for quizzing on Spongebob characters :)
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Usage
 
@@ -14,34 +14,30 @@ In this project, users can use information presented in a flashcard-like manner 
 
 The following **required** functionality is completed:
 
-- [ ] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [ ] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [ ] **A list of card pairs is created**
-- [ ] **Clicking on the card shows the corresponding component of the information pair**
-- [ ] **Clicking the next button displays a random new card**
+- [x] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
+- [x] **A single card at a time is displayed, only showing one of the components of the information pair**
+- [x] **A list of card pairs is created**
+- [x] **Clicking on the card shows the corresponding component of the information pair**
+- [x] **Clicking the next button displays a random new card**
 
 The following **optional** features are implemented:
 
-- [ ] Cards contains images in addition to or in place of text
-- [ ] Cards have different visual styles such as color based on their category
-  - [ ] *visual style implemented*
+- [x] Cards contains images in addition to or in place of text
+- [x] Cards have different visual styles such as color based on their category
+- [x] *visual style implemented*
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+- [x] Added custom background
+- [x] Added custom title font
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/gabrielaliera/SpongeBob_FlashCards/blob/master/spongebob-walkthroughP1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with <a href="https://www.cockos.com/licecap/">LICEcap.</a> 
 
 ### Dependencies
 
@@ -84,7 +80,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2023 Gabriela Liera
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -98,5 +94,4 @@ Describe any challenges encountered while building the app.
     See the License for the specific language governing permissions and
     limitations under the License.
 ---
-
 *Last Updated: March 2023*
