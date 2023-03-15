@@ -1,8 +1,6 @@
 # SpongeBob FlashCards
 
-Flashcards pt. 1 is a Quizlet-inspired set of flashcards, built using React, Vite, HTML, JavaScript, and CSS.
-
-This is an example of Flashcards Part 1 called SpongeBob FlashCards. This project includes flashcards made for quizzing on Spongebob characters :)
+This app is a Quizlet-inspired set of flashcards, built using React, Vite, HTML, JavaScript, and CSS. This project includes flashcards made for quizzing on Spongebob characters :)
 
 Time spent: **6** hours spent in total
 
