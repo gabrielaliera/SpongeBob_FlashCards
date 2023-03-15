@@ -85,7 +85,7 @@ http://localhost:5173/
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+During this lab, I learned to useState() to create state variables of different types. I used state variables to change the visual appearance of the app and check chanfes to other states are valid. I also use the onClick() and onChange() events to call methods to adjust or reset state variables. In addition, I created nested components in order to handle increasing complexity.
 
 ## License
 
