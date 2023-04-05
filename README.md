@@ -85,7 +85,7 @@ http://localhost:5173/
 
 ## Notes
 
-During this lab, I learned to useState() to create state variables of different types. I used state variables to change the visual appearance of the app and check chanfes to other states are valid. I also use the onClick() and onChange() events to call methods to adjust or reset state variables. In addition, I created nested components in order to handle increasing complexity.
+Throughout this project, I acquired the knowledge of utilizing the useState() function to generate state variables of varied types. Employing these state variables, I was able to modify the interface of the application and validate alterations in other states. Furthermore, I employed the onClick() and onChange() events to execute functions that would modify or reset state variables. To deal with growing intricacy, I created nested components.
 
 ## License
 
